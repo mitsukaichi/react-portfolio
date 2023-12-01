@@ -25,7 +25,7 @@ export default function Footer(){
                     </a>
                 </li>
                 <li className="ms-auto fw-lighter me-1">
-                <a href="https://www.freepik.com/free-vector/abstract-simple-background_14924525.htm#query=simple%20background&position=4&from_view=search&track=ais&uuid=be35ff4a-09ca-49dc-a352-ff145bbc03e2">Image by rawpixel.com</a> on Freepik
+                <a href="https://www.freepik.com/free-vector/abstract-simple-background_14924525.htm#query=simple%20background&position=4&from_view=search&track=ais&uuid=be35ff4a-09ca-49dc-a352-ff145bbc03e2">Background image by rawpixel.com</a> on Freepik
                 </li>
             </ul>
         </footer>
