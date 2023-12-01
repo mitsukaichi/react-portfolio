@@ -1,6 +1,6 @@
 export default function Footer(){
     return (
-        <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top fixed-bottom">
+        <footer className="d-flex flex-wrap justify-content-around align-items-center py-3 my-4 border-top fixed-bottom">
             <ul className="nav col-md-4 align-items-center justify-content-center list-unstyled d-flex">
             <li className="ms-3">
                     <a className="text-body-secondary" href="https://github.com/mitsukaichi/">
@@ -23,6 +23,9 @@ export default function Footer(){
                         <path d="M3.857 13.145h7.137v-1.428H3.857zM10.254 0 9.108.852l4.26 5.727 1.146-.852zm-3.54 3.377 5.484 4.567.913-1.097L7.627 2.28l-.914 1.097zM4.922 6.55l6.47 3.013.603-1.294-6.47-3.013-.603 1.294zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468-.294 1.397z"/>
                         </svg>
                     </a>
+                </li>
+                <li>
+                <a href="https://www.freepik.com/free-vector/abstract-simple-background_14924525.htm#query=simple%20background&position=4&from_view=search&track=ais&uuid=be35ff4a-09ca-49dc-a352-ff145bbc03e2">Image by rawpixel.com</a> on Freepik
                 </li>
             </ul>
         </footer>
