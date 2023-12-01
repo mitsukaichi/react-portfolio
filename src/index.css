@@ -8,6 +8,13 @@
   --custom-brown: #b8786c;
 }
   
+header {
+  background-color: var(--custom-pink);
+}
+
+footer {
+  background-color: var(--custom-grey);
+}
 
 body {
   background-image: url("./assets/rm245-bb-62.jpg");
