@@ -1,12 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --custom-white: #f6f6f6;
+  --custom-grey: #becdd4;
+  --custom-pink: #f2cabf;
+  --custom-orange: #e8b56d;
+  --custom-brown: #b8786c;
 }
+  
 
 body {
   background-image: url("./assets/rm245-bb-62.jpg");
   background-size:cover;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 main {
   margin: 10%;
+}
+
+#profile_photo{
+  max-width: 50%;
+  max-height: 50%;
+  border-radius: 40%;
+  border: 10px solid var(--custom-grey);
 }

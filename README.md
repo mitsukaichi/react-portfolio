@@ -19,6 +19,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 ## Resources referenced while developing this project
 
 - [Fit website background image to screen size : stackoverflow](https://stackoverflow.com/questions/19925075/fit-website-background-image-to-screen-size)
+- [What is the easiest way to change the default font in Reactstrap? : stackoverflow](https://stackoverflow.com/questions/52300289/what-is-the-easiest-way-to-change-the-default-font-in-reactstrap)
 
 ---
 
