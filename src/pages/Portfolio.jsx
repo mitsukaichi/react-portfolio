@@ -1,10 +1,24 @@
+import Project from "../components/Project";
+
+const projects = [
+  {
+    image: "#",
+    image_alt: "image_alt",
+    name: "name",
+    description: "description"
+  },
+  {
+    image: "#",
+    image_alt: "image_alt",
+    name: "name",
+    description: "description"
+  }
+]
+
 export default function Portfolio() {
     return (
       <div>
-        <h1>Portfolio!</h1>
-        <p>
-          Eventually this page has to take in the mulitple project components
-        </p>
+        <Project projects={projects} />
       </div>
     );
   }

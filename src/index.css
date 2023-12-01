@@ -6,3 +6,7 @@ body {
   background-image: url("./assets/rm245-bb-62.jpg");
   background-size:cover;
 }
+
+main {
+  margin: 10%;
+}
