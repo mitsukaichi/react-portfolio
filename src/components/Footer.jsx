@@ -1,6 +1,6 @@
 export default function Footer(){
     return (
-        <footer className="d-flex flex-wrap justify-content-around align-items-center py-3 border-top fixed-bottom">
+        <footer className="d-flex flex-wrap justify-content-around align-items-center py-3 border-top">
             <ul className="nav col-md-12 align-items-center justify-content-center list-unstyled d-flex">
             <li className="ms-5">
                     <a className="text-body-secondary" href="https://github.com/mitsukaichi/">
@@ -25,7 +25,11 @@ export default function Footer(){
                     </a>
                 </li>
                 <li className="ms-auto fw-lighter me-1">
-                <a href="https://www.freepik.com/free-vector/abstract-simple-background_14924525.htm#query=simple%20background&position=4&from_view=search&track=ais&uuid=be35ff4a-09ca-49dc-a352-ff145bbc03e2">Background image by rawpixel.com</a> on Freepik
+                    <small className="text-muted">
+                        <a href="https://www.freepik.com/free-vector/abstract-simple-background_14924525.htm#query=simple%20background&position=4&from_view=search&track=ais&uuid=be35ff4a-09ca-49dc-a352-ff145bbc03e2">
+                            Background image by rawpixel.com
+                        </a> on Freepik
+                    </small>
                 </li>
             </ul>
         </footer>
