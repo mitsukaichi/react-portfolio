@@ -1,5 +1,5 @@
 import Project from "../components/Project";
-import projects from "../projects";
+import projects from "../utils/projects";
 
 
 export default function Portfolio() {
