@@ -25,7 +25,12 @@ function Contact() {
     e.preventDefault();
     setErrorMessage('');
 
-    if (!validateEmail(email) || !userName) {
+    if (!userName) {
+      setErrorMessage('Provide your name');
+      return;
+    }
+
+    if (!validateEmail(email)) {
       setErrorMessage('Provide valid email address');
       return;
     }
@@ -38,11 +43,30 @@ function Contact() {
     setEmail('');
     setMessage('');
   };
+  
 
+  // When at least one field is not empty (user started input) & mouse cursor left the form without filling out all the fields, show the alert
+  const handleMouseLeave = () => {
+    if (!(!userName && !email && !message) && !(userName && email && message)) {
+      setErrorMessage(`Provide fill out all the fields`);
+    }
+  }
+
+  const handleEmailFieldMouseLeave = () => {
+    if (!validateEmail(email)) {
+      setErrorMessage('Provide valid email address');
+    }
+  }
+
+  const handleEmailFieldMouseEnter = () => {
+    if (validateEmail(email)) {
+      setErrorMessage('');
+    } 
+  }
 
     return (
-      <div className="d-flex align-items-center justify-content-center">
-        <form className="col-md-6" onSubmit={handleFormSubmit}>
+      <div className="d-flex align-items-center justify-content-center" >
+        <form className="col-md-7 p-5" onSubmit={handleFormSubmit} onMouseLeave={handleMouseLeave}>
           <div className="form-group my-4">
             <label className="my-1">Name</label>
             <input 
@@ -56,7 +80,7 @@ function Contact() {
               
             />
           </div>
-          <div className="form-group my-4">
+          <div className="form-group my-4" onMouseLeave={handleEmailFieldMouseLeave} onMouseEnter={handleEmailFieldMouseEnter}>
             <label className="my-1">Email</label>
             <input 
               value={email}
