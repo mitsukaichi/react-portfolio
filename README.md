@@ -21,6 +21,11 @@ SO THAT I can assess whether they're a good candidate for an open position
 - [Fit website background image to screen size : stackoverflow](https://stackoverflow.com/questions/19925075/fit-website-background-image-to-screen-size)
 - [What is the easiest way to change the default font in Reactstrap? : stackoverflow](https://stackoverflow.com/questions/52300289/what-is-the-easiest-way-to-change-the-default-font-in-reactstrap)
 
+
+## Things learnt from this challenge
+
+- View height for the single page application is defined by the longest content of all the child components that can possibly appear on that page. I struggled to set the footer at the bottom of the page while not using `fixed-bottom` class - which overlaps the main content when the main content is longer than the view port. I decided to add `min-height: 75vh;` which will make the footer appear at the bottom of the screen even with the large screen, while not leaving too much space between the bottom of the content and the footer in the pages with shorter content. 
+
 ---
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
