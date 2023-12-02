@@ -53,7 +53,7 @@ function Contact() {
   }
 
   const handleEmailFieldMouseLeave = () => {
-    if (!validateEmail(email)) {
+    if (email && !validateEmail(email)) {
       setErrorMessage('Provide valid email address');
     }
   }

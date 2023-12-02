@@ -1,20 +1,15 @@
 # 20 React: React Portfolio
 
-## Your Task
+## About this project
 
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
+This project was done as part of the assignments in the UC Berkeley full stuck web developer coding bootcamp. In this assignment, the students are tasked to build a portfolio page with React meeting the following requirements from scratch:
 
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies.
-
-You’ll deploy this application to Netlify. Follow the instructions in the Git Guide or consult the [Docs on Netlify](https://vitejs.dev/guide/static-deploy.html#netlify) to create a build that you can deploy.
-
-## User Story
-
-```md
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
-```
+- Has About Me, Portfolio, Contact, and Resume pages
+- Navigation highlights the current page
+- Home page redirects to the About Me page
+- Contact page validate the empty field and email address
+- Resume pages link to a downloadable resume and developers's skill list
+- Footer contains links to GitHub, Linkedin and something else
 
 ## Resources referenced while developing this project
 

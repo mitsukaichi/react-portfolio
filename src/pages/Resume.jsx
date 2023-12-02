@@ -1,3 +1,5 @@
+import resume from '../assets/Resume-Minami-Mukai.pdf';
+
 export default function Resume() {
   return (
     <div className="d-flex flex-wrap justify-content-around align-items-center">
@@ -27,7 +29,8 @@ export default function Resume() {
             </div>
           </div>
       </div>
-      <div className="card col-md-5 m-2 shadow p-1 bg-white rounded">
+      <div className="container col-md-5 d-flex flex-column">
+        <div className="card  m-2 shadow p-1 bg-white rounded">
           <div className="row no-gutters">
             <div className="card-body">
                 <h4 className="card-title text-center">Skills</h4>
@@ -43,6 +46,10 @@ export default function Resume() {
                 </ul>
             </div>
           </div>
+        </div>
+        <a href={resume} download="Minami_Mukai_resume.pdf" className="m-5">
+          <div className="btn btn-block col-md-12" id="resume-download">Download Resume</div>
+        </a>
       </div>
     </div>
   );
