@@ -55,13 +55,9 @@ function Contact() {
   const handleEmailFieldMouseLeave = () => {
     if (email && !validateEmail(email)) {
       setErrorMessage('Provide valid email address');
-    }
-  }
-
-  const handleEmailFieldMouseEnter = () => {
-    if (validateEmail(email)) {
+    } else {
       setErrorMessage('');
-    } 
+    }
   }
 
     return (
@@ -80,7 +76,7 @@ function Contact() {
               
             />
           </div>
-          <div className="form-group my-4" onMouseLeave={handleEmailFieldMouseLeave} onMouseEnter={handleEmailFieldMouseEnter}>
+          <div className="form-group my-4" onMouseLeave={handleEmailFieldMouseLeave}>
             <label className="my-1">Email</label>
             <input 
               value={email}
