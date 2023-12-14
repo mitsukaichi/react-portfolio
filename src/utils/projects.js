@@ -68,6 +68,15 @@ const projects = [
         description: "Online text editor available as PWA",
         url: "https://mitsukaichi-jate-a4d41c9807d2.herokuapp.com/",
         repo_url: "https://github.com/mitsukaichi/pwa-text-editor"
+    },
+    {
+        id: 9,
+        image: "https://github.com/mitsukaichi/critter-clicker/assets/45612744/2090a40e-f7c5-4b70-bccf-857ec5ac5b5a",
+        image_alt: "Recipe Rolodex",
+        name: "Recipe Rolodex",
+        description: "Share your family recipes",
+        url: "https://recipe-rolodex-d7c0cb19d5d1.herokuapp.com/",
+        repo_url: "https://github.com/abenedetti27/recipe-rolodex"
     }
   ];
 
